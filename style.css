@@ -17,6 +17,13 @@ h1 {
 
 .qr {
   width: 40vw;
+  min-width: 500px;
   height: 90vh;
   cursor: not-allowed;
+}
+
+@media (min-width: 310px) and (max-width: 480px) {
+  .qr {
+    width: 90vw;
+  }
 }
